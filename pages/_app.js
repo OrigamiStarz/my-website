@@ -9,7 +9,7 @@ const encode_sans = Encode_Sans({
 export default function App({ Component, pageProps }) {
   return  (
     <main className={encode_sans.className}>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </main>
   )
 }
