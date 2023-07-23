@@ -1,0 +1,55 @@
+/* BACKGROUND / SECTIONS */
+body {
+  background: #191919;
+  color: rgb(222, 222, 222);
+  font-family: 'Caveat', cursive;
+}
+
+footer {
+  margin: 20px;
+  text-align: center;
+}
+/* Phone */
+@media screen and (max-width: 600px) {
+  .twoContainers {
+    display: flex;
+    padding: 10px;
+    flex-flow: row wrap;
+  }
+
+  .twoContainers div {
+    flex: 1 100%;
+  }
+}
+/* Tablet/Laptop */
+@media screen and (min-width: 600px) {
+  .twoContainers {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+  }
+}
+
+/* TEXT  */
+/* Special Text */
+.fancyText {
+  background: linear-gradient(45deg, #00BBFF 0%, #5959FF 33%, #EE54FF 58%, #A911CF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* https://www.cssportal.com/css-text-gradient-generator/ */
+
+.center {
+  text-align: center;
+}
+
+/* PROFILE PIC */
+.profilePic {
+  border-radius: 100%;
+  margin: auto;
+  display: block;
+  transition:cubic-bezier(1, 0.75, 0.5, 1) 0.5s;
+}
+.profilePic:hover {
+  transform: rotate(360deg);
+}

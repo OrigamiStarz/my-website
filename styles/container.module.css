@@ -1,0 +1,15 @@
+.outer {
+    background: rgb(37, 37, 37);
+    padding: 20px;
+    width: calc(100% - 50px);
+    box-shadow: 3px 3px 5px rgba(89, 105, 163, 0.5);
+    border-top: 10px double rgba(115, 176, 236, 0.5);
+    border-left: 10px double rgba(115, 176, 236, 0.9);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.heading {
+    font-size: 30px;
+}
