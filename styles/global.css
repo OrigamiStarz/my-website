@@ -33,14 +33,15 @@ footer {
 /* TEXT  */
 /* Special Text */
 .fancyText {
-  background: linear-gradient(45deg, #00BBFF 0%, #5959FF 33%, #EE54FF 58%, #A911CF 100%);
+  background: linear-gradient(45deg, #00BBFF 0%, #5959FF 45%, #EE54FF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 /* https://www.cssportal.com/css-text-gradient-generator/ */
 
 .center {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* PROFILE PIC */
@@ -48,8 +49,9 @@ footer {
   border-radius: 100%;
   margin: auto;
   display: block;
-  transition:cubic-bezier(1, 0.75, 0.5, 1) 0.5s;
+  transition: cubic-bezier(0.5, 0.2, 0, 1) 0.7s;
 }
 .profilePic:hover {
   transform: rotate(360deg);
+  filter: brightness(80%);
 }

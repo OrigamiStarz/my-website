@@ -1,5 +1,5 @@
 import '../styles/global.css';
-import {Encode_Sans} from "next/font"
+import {Encode_Sans} from "next/font/google"
 
 const encode_sans = Encode_Sans({
   subsets: ["latin"],
